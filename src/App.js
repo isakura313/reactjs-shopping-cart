@@ -1,10 +1,14 @@
 import React from 'react';
 import Cart from './containers/Cart';
 import ProductList from './containers/ProductList';
+import Navigation from './Layouts/Navigation'
+
 
 const App = () => {
     return (
+
         <div className="container">
+            <Navigation/>
             <div className="row">
                 <div className="col-md-12">
                     <h1>React+Redux Shopping Cart Example</h1>
